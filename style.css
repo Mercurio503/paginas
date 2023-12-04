@@ -1,0 +1,145 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+html{
+    width: 80%;
+}
+body{
+    background-color: rgb(223, 100, 121);
+    width: 122%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+h1{
+    position: absolute;
+    top: 17%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 3em; 
+    color:black;
+    /* font-family: Blackletter, sans-serif; */
+    
+}
+
+.circle{
+    /* background-color: black;
+    color: white;     */
+    /* border-radius: 2rem; */
+    width: 60px;
+    height: auto;
+    border-radius: 40px;
+    position: absolute;
+    top: 17%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    opacity: 0.9;
+}
+
+
+
+.img{
+    width:100%;
+    height: auto;
+    margin: 10px, 10px;
+    /* padding-top: 5px; */
+    /* border:1px solid black; */
+    border-radius: 20px;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+.contact{
+    /* position: absolute; */
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    /* border:1px solid black; */
+    padding: 40px;
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 45%;
+    background-color: rgb(169, 79, 94);
+    border-radius: 50px;
+}
+form {
+    font-size: 1.2rem;
+}
+form label {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+h3{
+    /* width: 50%; */
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(171, 189, 205);
+    border-radius: 25px;
+    /* padding-left: 50%; */
+}
+h3:hover{
+    background-color: black;
+    color:rgb(169, 79, 94);
+    border-radius: 25px;
+}
+
+hr{
+    height: 1px;
+    background: black;
+    border: none;
+    background: linear-gradient black;
+}
+
+input,
+textarea, input:focus,
+textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: black;
+    border: none;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+}
+.contact:hover{
+    background-color: rgb(225, 132, 147);
+    border-radius: 50px;
+}
+form button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+form button:hover {
+    background-color:white;
+    color:black;
+    transition: background-color .3s ease;
+}
+/* @media (max-width: 992px) {
+    form {
+        display: block;
+}
+} */
