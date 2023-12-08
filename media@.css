@@ -1,3 +1,6 @@
+
+
+
 @media only screen and (max-width:600px){
     header{
         /* border:1px solid blue; */
@@ -122,5 +125,16 @@
 
 }
 
+@media only screen and (max-width:400px){
+    h1{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: 0.5em; 
+        color:black;
+    }
+}
 
 
